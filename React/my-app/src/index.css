@@ -1,12 +1,15 @@
-* {
-  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
-  /* background-color: blue; */
+/* * {
+  background-image: url("https://plus.unsplash.com/premium_photo-1671922733039-66cc299e0d91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1700&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;  for the mini project 
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inconsolata", monospace;
   font-family: "Ysabeau SC", sans-serif;
 }
+
 .flip {
   width: 100%;
   height: 100vh;
@@ -20,7 +23,7 @@ h1 {
   border-radius: 20px;
 }
 span {
-  color: blue;
+  color: blue; *
 }
 /* .heading {
   font-family: "Inconsolata", monospace;
@@ -39,3 +42,62 @@ span {
   height: 200px;
   width: 150px;
 } */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+.heading {
+  padding: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-weight: 50px;
+  color: black;
+  background-color: rgb(175, 228, 228);
+}
+
+.card1 {
+  width: 100%;
+  height: auto;
+}
+.card1:hover {
+  box-shadow: 0px 30px 18px --8px;
+  transform: scale(1.05, 1.05);
+}
+.card2 {
+  margin: 6%;
+  transition: all 0.4 cubic-bezier(0.175, 0.885, 0);
+  width: 21.25%;
+  border-radius: 12px;
+  float: left;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0);
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_info {
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+button {
+  padding: 5px 8px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
